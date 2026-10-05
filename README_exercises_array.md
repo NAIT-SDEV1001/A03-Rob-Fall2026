@@ -118,7 +118,6 @@ Ranked 3 is: Blackberry
 Ranked 4 is: The Billion Dollar Code
 Ranked 5 is: Mr. Robot
 ```
-3. (optional) You can run `python tests_do_not_touch\test_tech_shows_top_5.py` to see if your program is working correctly.
 
 
 ## Exercise 6. 
@@ -134,4 +133,4 @@ Edmonton is an interesting city that we can visit
 Paris is an interesting city that we can visit
 Prague is an interesting city that we can visit
 ```
-3. (optional) You can run `python tests_do_not_touch\test_interesting_cities_visitable.py` to see if your program is working correctly.
+

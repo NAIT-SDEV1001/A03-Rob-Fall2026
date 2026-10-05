@@ -16,7 +16,9 @@ interesting_cities.sort()
 print("Our list of interesting cities in alphabetical order is:")
 print(interesting_cities)
 
-invalid_cities = ('Munich', 'Berlin')
+invalid_cities = ['Munich', 'Berlin']
+# invalid_cities = ('Munich', 'Berlin')  - a tuple i.e. list that can not be changed
+# invalid_cities = {'Munich', 'Berlin'}  - a set like a list but unique members only, no duplicates
 
 for city in interesting_cities:
     if city in invalid_cities:
