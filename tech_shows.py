@@ -6,6 +6,7 @@ print (f"The last show is: {tv_shows[-1]}")
 print (f"The last show is: {tv_shows[len(tv_shows)-1]}")
 tv_shows[6] = "The Dropout"
 tv_shows[7] = "Black Mirror"
+#use a slice to print off part of the list
 print(f"The 5th to ninth shows in the list are: {tv_shows[4:9]}")
 
 #print out the top five shows i.e. the first five in the list
@@ -13,5 +14,5 @@ print(f"The 5th to ninth shows in the list are: {tv_shows[4:9]}")
 
 print("The top five shows are: ")
 
-for show in range(5):
-    print (f"Ranked: {show} is: {tv_shows[show]}")
+for i in range(5):
+    print (f"Ranked: {i+1} is: {tv_shows[i]}")
