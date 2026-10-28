@@ -1,6 +1,6 @@
 from squares_calculator import calculate_sum_of_squares
 # vs 
-# import squares_calculator
+# import squares_calculator as sc
 
 # use the second method when all functions of the module are being used
 # but you must prefix function calls with module name (i.e. squares_calculator.function)
